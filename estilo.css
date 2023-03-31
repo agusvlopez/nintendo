@@ -1,0 +1,1021 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0;
+    background-color: #f3f1f1; 
+}
+
+strong {
+    font-weight: inherit;
+}
+
+em {
+    font-style: normal;
+}
+
+nav {
+    font-size: 1rem;
+    background-color: #fa1a21f5;
+    padding: 0.5rem ;
+    padding-bottom: 2rem;
+}
+
+h2 {
+    padding: 1rem 0.5rem;
+    margin: 0.5rem auto;
+    font-size: 1.6rem;
+    font-weight: 200;
+    
+}
+
+h3 {
+    font-size: 1.4rem;
+}
+
+main {
+    font-size: 1rem;
+}
+
+main .titulo img {
+    display: block;
+    width: 100%;  
+}
+
+p {
+    font-weight: 400;
+    margin: 1rem;
+    padding: 0.5rem;
+    line-height: 1.5rem;
+    
+}
+
+li {
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    width: calc(50% - 1.2rem);
+    text-align: center;
+   
+}
+
+li a {
+    text-decoration: none;
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-shadow: rgb(71, 71, 71) 1px 1px 5px;
+    line-height: 1.5rem;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    
+} 
+
+.logo span {
+   display: block;
+   background-image: url('./img/logo-letras.png');
+   background-size: contain;
+   background-repeat: no-repeat;
+   width: 180px;
+   height: 80px;
+   margin: auto;
+   overflow: hidden;
+   
+}
+
+.logo {
+    margin: 0 auto;
+    width: 100%;
+    
+}
+
+.inicio {
+    margin: 0 auto;
+    display: block;
+    
+}
+
+.titulo {
+    position: relative;
+    height: 380px;
+    
+    max-width: 320px;
+    margin: auto;
+}
+
+.titulo img {
+    max-width: 320px;
+    display: block;
+    width: 100%;
+    
+}
+
+.titulo h1 {
+    display: block;
+    width: 90%;
+    text-align: center;
+    text-transform: uppercase;
+    color: whitesmoke;
+    padding: 0.6rem;
+    font-size: 1.8rem;
+    font-weight: 200;
+    
+    background-color: #181818fa;
+    
+   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 90px  0 0 -144px;
+   
+   
+    box-shadow: #524f4f 1px 1px 3px;
+
+    max-width: 288px;
+}
+
+.img-titulo-laptop {
+    display: none;
+}
+.introduccion h2 {
+    color: #686764;
+    margin: 0.5rem 1rem;
+    padding: 0 1rem 1rem;
+    text-shadow: #a0a0a0b9 1px 1px 3px;
+}
+
+.introduccion .img-intro img {
+    display: block;
+    width: 100%;
+}
+
+.introduccion .img-intro {
+    box-shadow: #524f4f 1px 1px 3px;
+}
+
+.introduccion p {
+    color: #353333;
+}
+
+.caracteristicas {
+    background-color: #fd3e44af;
+    padding-bottom: 1rem;
+   
+}
+
+.caracteristicas h2 {
+    text-align: center;
+    color: whitesmoke;
+    padding: 1rem 0.5rem;
+    margin: 0.5rem auto;
+   
+    font-weight: 200;
+    text-shadow: #0e0e0eb9 1px 1px 3px;
+
+    border-bottom: thin solid rgb(248, 236, 236);
+    width: 90%;
+}
+
+.caracts-2  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caracteristicas .img-2-caracts-2 {
+    display: none;
+}
+
+.caracteristicas .img-2-caracts {
+    padding: 2rem;
+    background-color:#f3f1f1;
+}
+
+.caracteristicas .img-2-caracts img {
+    width: 100%;
+    display: block;
+}
+
+.caracteristicas h3 {
+    color: whitesmoke;
+    font-weight: 300;
+    margin: 0;
+    padding: 2rem 1rem;
+    text-shadow: #0e0e0eb9 1px 1px 3px;
+
+    text-align: right;
+
+    /* background-image: url('./img/fondo-h3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+
+.caracteristicas p {
+    margin: 0.5rem 1rem 2rem;
+    padding: 1.5rem;
+    line-height: 1.8rem;
+    color: whitesmoke;
+    text-align: center;
+    border-bottom: thin solid rgb(248, 236, 236);
+    
+    text-shadow: #0e0e0eb9 0.5px 0.5px 2px;
+}
+
+.caracteristicas .img-8-caracts p {
+    border-bottom: none;
+}
+
+.caracteristicas .img-1-caracts img {
+    display: block;
+    width: 100%;
+}
+
+.img-3-caracts img, .img-4-caracts img, .img-5-caracts img, .img-6-caracts img, .img-7-caracts img, .img-8-caracts img{
+    width: 100%;
+    display: block;
+}
+
+.img-3-caracts, .img-4-caracts , .img-5-caracts, .img-6-caracts, .img-7-caracts, .img-8-caracts {
+    padding: 1rem;
+}
+
+.caracteristicas h4 {
+    text-align: center;
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin: 0;
+    padding: 1rem;
+
+    line-height: 1.8rem;
+}
+
+
+.modos {
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+.modos h2 {
+    text-align: right;
+    font-weight: 300;
+    color: #686764;
+    padding: 2rem 1rem 1rem;
+}
+
+.modos p {
+    color: #353333;
+    padding-bottom: 1.5rem;
+}
+
+.img-1-modos {
+    display: block;
+    margin: 0 -1rem;
+    padding: 0;
+}
+.img-1-modos img {
+    display: block;
+    width: 100%;
+}
+
+.img-2-modos img, .img-3-modos img, .img-4-modos img {
+    display: block;
+    width: 100%;
+    border-radius: 0.5rem;
+}
+.img-2-modos, .img-3-modos, .img-4-modos {
+    padding: 0.5rem;
+    margin: 1rem -1rem;
+}
+
+.modos h3 {
+    color: #fa1a21f5;
+    font-weight: 400;
+    margin-left: 0.5rem ;
+}
+
+.joy-con {
+    background-color: #131313;
+    color: whitesmoke;
+}
+
+.img-1-joycon img {
+    display: block;
+    width: 100%;
+}
+
+.img-1-joycon {
+    margin: 1rem 1rem 2.5rem;
+    padding: 0.5rem;
+}
+
+.joy-con h2{
+    font-weight: 300;
+    padding: 2rem;
+    text-align: center;
+}
+
+.joy-con p {
+    padding: 1rem;
+}
+
+.joy-con .parte-1-joycon p:first-of-type {
+    text-align: center;
+    padding: 2rem;
+   
+}
+
+.img-2-joycon img {
+    width: 100%;
+    display: block;
+    
+}
+
+.joy-con h3 {
+    
+    background-color: #fa1a21f5;
+    color: #f3efef;
+    margin: 0;
+    font-weight: 300;
+    padding: 0.5rem;
+    margin: 0;
+    
+    text-align: center;
+
+}
+
+.img-3-joycon img {
+    display: block;
+    width: 100%;
+}
+
+.img-4-joycon img {
+    display: block;
+    width: 100%;
+}
+
+.juegos {
+    padding-bottom: 3rem;
+}
+.juegos img {
+    display: block;
+    width: 100%;
+}
+.juegos h2 {
+    display: block;
+    color:#131313;
+    font-weight: 300;
+    margin: 2rem 0.5rem;
+}
+
+.juegos .intro-juegos {
+    background-color:#fa1a21f5;
+    color: #f3efef;
+    padding: 2rem 3rem;
+    margin: 0 0 5rem;
+
+}
+
+.juegos h2::before {
+    content: url('./img/icon-game.png');
+    margin: 0.5rem;
+    
+    width: 30px;
+    height: 30px;
+
+}
+
+.juegos-imagenes>div {
+    padding: 1rem;
+    margin: 1rem auto;
+    
+   
+    border-radius: 0.5rem;
+    box-shadow: #383838 1px 1px 2px;
+} 
+
+
+.juegos-imagenes div>p {
+    margin: 8.5rem auto;
+    padding: 0.8rem;
+    text-align: center;
+    background-color:#fa1a21f5;
+    color: #f3efef;
+    display: block;
+    text-shadow: #131313 1px 1px 3px;
+    
+    width: 50%;
+    font-weight: 300;
+}
+
+.screen {
+    position: relative;
+    height: 500px;
+    max-width: 288px;
+
+    display: block;
+    margin: auto;
+   
+}
+
+.screen img {
+    box-shadow: #131313 1px 1px 3px;
+    max-width: 256px;
+    display: block;
+    width: 100%;
+}
+
+.screen-arriba {
+    position: absolute;
+    width: 80%;
+
+    bottom: 125px;
+    left: 29px;
+    max-width: 230px;
+}
+
+.screen-arriba img {
+    border-radius: 1rem;
+    box-shadow: #131313 1px 1px 3px;
+    display: block;
+    width: 100%;
+}
+
+footer {
+    background-color: #131313;
+    padding: 1rem 0 0;
+}
+
+footer img {
+    display: block;
+    width: 100%;
+}
+footer p {
+    color: #f3efef;
+    font-size: 1rem;
+}
+
+footer h2 {
+    color: #f3efef;
+    margin-left: 1rem;
+}
+
+footer input {
+    text-decoration: none;
+    
+}
+
+.datos input {
+    padding: 5px;
+    margin: 5px;
+    
+    background-color: #f3f1f1;
+}
+
+/* FORMULARIO */
+
+fieldset {
+    margin: 1rem;
+    background-color:#f3f1f1;
+    border: none;
+    padding: 1rem;
+    
+    max-height: 300px;
+}
+.datos>input {
+  
+    margin: 0.5rem;
+    padding: 1rem;
+    border: none;
+    border-bottom: 1px solid grey;
+    
+    font-size: 1rem;
+}
+
+.datos>label {
+    display: none;
+   
+}
+
+textarea {
+    width: 90%;
+    min-height: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    padding: 1rem;
+    margin: 0.5rem;
+
+    background-color: whitesmoke;
+}
+
+fieldset label {
+    display: inline-block;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    color: #524f4f;
+    padding: 0.8rem;
+    font-weight: 500;
+    
+    line-height: 1.5rem;
+}
+/* boton enviar */
+
+.boton {
+   display: flex;
+   flex-direction: column;
+
+   align-items: flex-end;
+
+}
+
+[type="submit"] {
+    background-color:#fa1a21f5;
+    color: whitesmoke;
+    font-weight: 400;
+   
+    padding: 1rem;
+    margin: 1rem;
+    border: none;
+    
+    width: 150px;
+}
+
+
+footer .logo-footer {
+    padding: 0;
+    margin-top: 2rem;
+   
+}
+footer .datos-alumna img {
+    display: block;
+    width: 100%;
+}
+footer .datos-alumna{
+    max-width: 250px;
+    margin: auto;
+    padding: 1rem;
+}
+footer .datos-alumna p {
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+@media screen and (min-width:672px) {
+    
+   .img-intro  {
+    max-width: 500px;
+    margin: 3rem auto;
+
+   }
+   .introduccion h2 {
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+   }
+
+   .introduccion p {
+    margin: 2rem ;
+   }
+
+   
+   .caracteristicas h2 {
+    padding: 2rem;
+    margin: 1rem;
+    text-align: center;
+    margin: auto;
+   }
+
+   .caracteristicas h3 {
+    padding: 2rem;
+   }
+
+   .caracteristicas .img-2-caracts {
+    display: none;
+   }
+
+   .caracteristicas .img-2-caracts-2 {
+    display: block;
+}
+   .caracteristicas .img-2-caracts-2 img {
+    display: block;
+    width: 100%;
+   }
+
+   .img-3-caracts img, .img-4-caracts img, .img-5-caracts img, .img-6-caracts img, .img-7-caracts img, .img-8-caracts img {
+    max-width: 70%;
+    margin: auto;
+   }
+
+   .img-3-caracts p, .img-4-caracts p, .img-5-caracts p, .img-6-caracts p,.img-7-caracts p, .img-8-caracts p {
+    padding: 2.5rem 3.5rem;
+   }
+
+   .modos {
+    margin-top: 3rem;
+   }
+   .modos h2 {
+    padding: 2rem;
+   }
+   .modos h3 {
+    padding: 1rem;
+   }
+   .modos p {
+    max-width: 70%;
+    margin: auto;
+    padding: 3rem 2rem;
+   }
+   .modos .img-2-modos, .img-3-modos, .img-4-modos {
+    max-width: 70%;
+    margin: auto;
+   }
+
+   .joy-con img{
+    max-width: 80%;
+    margin: auto;
+    border: thin solid #B73E3E;
+    
+   }
+
+   .img-1-joycon img {
+    max-width: 90%;
+    margin: auto;
+    border: none;
+    
+    }
+
+   .joy-con {
+    padding: 2rem;
+   }
+
+   .joy-con h2 {
+    text-shadow: #f3efef 1px 1px 5px;
+   }
+
+   .joy-con h3, .joy-con p {
+    max-width: 80%;
+    margin: auto;
+   }
+
+   .joy-con p {
+    padding: 4rem 3rem;
+   }
+
+   .juegos .juegos-imagenes {
+    
+    text-align: center;
+   }
+
+   .juegos .juegos-imagenes .screen {
+    display: inline-block;
+    
+    margin: 2rem 1rem;
+    width: calc(50% - 4rem);
+    
+   }
+   
+   footer {
+    padding: 2rem;
+   }
+   
+   .logo-footer{
+    margin: 2rem -2rem -2rem;
+   }
+   
+   .datos input{
+    width: calc(50% - 1rem);
+    }
+
+    fieldset input:last-of-type  {
+        width: calc(100% - 1rem);
+    }
+
+    footer .datos-alumna div>p {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    footer .datos-alumna img {
+        width: 250px;
+    }
+
+    footer .datos-alumna{
+        display: flex;
+        margin: 0;
+        
+        }
+
+}
+
+@media screen and (min-width: 990px) {
+
+    /* TABLET */
+
+    nav {
+        padding: 1rem;
+        background-color: #fa1a21f5;
+        
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    ul {
+        display: flex;
+        gap: 50px;
+    }
+
+    li {
+        padding-top: 1rem;
+        max-width: 135px; 
+    }
+     
+    .logo {
+        margin: -1rem auto;
+        width: fit-content;
+        max-width: 200px;  
+         
+    }
+     
+    .inicio {
+        display:inline-block;  
+        align-items: center;
+        margin: 0.5rem;
+        
+    }
+
+    .titulo>img:first-of-type {
+        display: none;
+    
+    }
+
+    .img-titulo-laptop {
+        display: block;
+        width: 100%;
+    }
+
+    .img-titulo-laptop img {
+        display: block;
+        min-width: 70%;
+        margin: auto;
+    }
+  
+    .titulo {
+       min-width: 800px;
+        height: fit-content;
+    }
+    
+    .titulo h1 {
+        position: absolute;
+        top: 77%;
+        left: 40%;
+        display: block;
+        min-width: 60%;
+    }
+    
+    .introduccion {
+        padding: 3rem 3rem 4rem;
+    }
+
+    .introduccion h2 {
+        padding: 3rem 3rem 0 3rem;
+        
+    }
+
+    .introduccion .img-intro {
+        min-width: 45%;
+    }
+
+    .introduccion p {
+        width: 80%;
+        margin: auto;
+    }
+    
+    .caracteristicas {
+        display: inline-block;
+        padding: 2rem 1rem 3rem;
+        
+    }
+    .caracteristicas .img-1-caracts {
+        display: inline-block;
+        width: calc(55% - 1rem);
+    }
+
+    .caracteristicas .h2-h3-img-1-caracts {
+        display: inline-block;
+        width: calc(45% - 1rem);
+        vertical-align: top;
+        padding: 0.5rem 1rem 3rem;
+    }
+
+    .caracteristicas .h2-h3-img-1-caracts h3 {
+        background-image: none;
+    }
+
+    .caracteristicas .caracts-2 {
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 2rem 0;
+        width: 100%;
+        
+    }
+
+    .caracteristicas .caracts-2 p {
+        width: 60%;
+        border-bottom: none;
+        margin: 2rem;
+        padding: 3rem 0;
+    }
+
+    .caracteristicas .caracts-2 .img-2-caracts-2 {
+        width: 100%;
+        padding: 1rem 3rem ;
+    }
+
+    .caracteristicas .caracts-2 img {
+        display: block;
+        width: 100%;
+        box-shadow: #2c2c2c 1px 1px 3px;
+       
+    }
+
+    .img-3-caracts p, .img-4-caracts p, .img-5-caracts p, .img-6-caracts p, .img-7-caracts p, .img-8-caracts p {
+        
+        border-bottom: none;
+       
+    }
+
+    .img-3-caracts, .img-5-caracts, .img-7-caracts {
+        display: flex;
+        padding: 1rem 3rem ;
+        
+    }
+
+    .img-3-caracts div, .img-5-caracts div, .img-7-caracts div {
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: -1rem;
+        padding: 1rem 3rem ;
+
+    }
+
+    .img-4-caracts, .img-6-caracts, .img-8-caracts {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .img-4-caracts div, .img-6-caracts div, .img-8-caracts div {
+        padding: 2rem;
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .img-3-caracts img , .img-5-caracts img, .img-7-caracts img {
+        box-shadow: #2c2c2c 1px 1px 3px;
+        width: 100%;
+        display: block;
+    }
+
+    .img-4-caracts img , .img-6-caracts img , .img-8-caracts img  {
+        box-shadow: #2c2c2c 1px 1px 3px;
+        width: 100%;
+        display: block;
+    }
+
+    /* modos */
+
+    .modos {
+        margin-bottom: 10rem ;
+    }
+    .modos h2{
+        text-align: left;
+        
+    }
+
+    .modos .img-1-modos {
+        width: 70%;
+        margin: auto;
+    }
+
+
+    .los-3-modos {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        
+    }
+
+    .img-2-modos, .img-3-modos, .img-4-modos {
+        min-width: 300px;
+        
+    }
+    .los-3-modos img {
+       width: 100%;
+       display: block;  
+    }
+
+   .modo-tv, .modo-semi, .modo-port {
+        display: flex ;
+        flex-direction: column;
+        max-width: 330px;
+        margin: auto;
+    }
+
+   .los-3-modos h3 {
+    margin-left: 1rem;
+   }
+
+   .los-3-modos p {
+    padding: 0.5rem;
+   }
+
+   /* SECCIÓN JOY-CON */
+
+   .joy-con .joy-img-p {
+    display: flex;
+    margin-bottom: 4rem;
+    justify-content: center;
+    
+   }
+   
+   .joy-con .joy-img-p .img-1-joycon{
+    width: 80%;
+   }
+
+   .contenedor-joy {
+    display: flex;
+   }
+
+   .contenedor-joy h3 {
+    min-height: 70px ;
+    padding: 0.5rem;
+   }
+
+   .joy-1, .joy-2, .joy-3 {
+        max-width: 33%;
+   }
+
+   .joy-1 p, .joy-2 p, .joy-3 p {
+    padding: 1.2rem;
+    margin: 1rem 2rem 4rem;
+   }
+
+   /* SECCION JUEGOS */
+
+   .juegos .portada-juegos {
+    width: 70%;
+    margin: auto;
+   }
+   
+   .juegos .screen p:hover {
+
+    background-color:#383838;
+    color: #f3f1f1;
+    cursor: pointer;
+   }
+
+   /* SECCION FOOTER  */
+    
+   footer img {
+    width: 60%;  
+    margin: auto;      
+    }
+
+    .logo-footer img{
+        width: 100%;
+    }
+
+    /* formulario */
+
+    footer h2, footer p {
+        width: 90%;
+        margin: auto;
+    }
+    form {
+        width: 90%;
+        margin: auto;
+    }
+    .datos input{
+        width: calc(33.3% - 1rem);
+    }
+
+    fieldset input:last-of-type {
+        width: calc(33.3% - 1rem);
+    }
+
+    .boton input:hover{
+        background-color:#383838;
+        color: #f3f1f1;
+        cursor: pointer;
+    }
+
+
+}
