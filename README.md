@@ -1,2 +1,2 @@
 # nintendo
-One Page de Nintendo Switch hecha con CSS
+One Page responsive de Nintendo Switch hecha con CSS
